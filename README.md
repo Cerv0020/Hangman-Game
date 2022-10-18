@@ -1,8 +1,8 @@
 # Hangman-Game
-This idea was taken from: https://www.edureka.co/blog/python-projects/
+This idea was taken from: https://www.edureka.co/blog/python-projects/ | https://data-flair.training/blogs/hangman-game-python-code/
 
 - [x] Two/Four Players
-- [ ] One Player thinks of a word, phrase or sentence
+- [x] One Player thinks of a word, phrase or sentence
 - [ ] The others suggest letters within a certain number of guesses
 - [ ] The word to guess is represented by a row of <b>dashes</b>, representing each <b>letter</b> of the <b>word</b>
 - [ ] If the guessing player suggests a letter which occurs in the word, the other players writes it in all its correct positions

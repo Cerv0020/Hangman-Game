@@ -1,6 +1,7 @@
 #Módulos
 import sys
 import pygame
+import getpass
 import random
 
 #Número de Jogadores
@@ -22,15 +23,6 @@ for i in range(numeroJogadores):
 
 #Jogador da Palavra
 randomizador = random.randint(1, numeroJogadores)
-
-if randomizador == 1:
-    print("O jogador {0} escolhe a palavra".format(randomizador))
-
-if randomizador == 2:
-    print("O jogador {0} escolhe a palavra".format(randomizador))
-
-if randomizador == 3:
-    print("O jogador {0} escolhe a palavra".format(randomizador))
-
-if randomizador == 4:
-    print("O jogador {0} escolhe a palavra".format(randomizador))
+print("Nome do jogador que irá escolher a palavra :" + nomesJogadores[randomizador - 1])
+palavra = getpass.getpass('Palavra: ')
+print(palavra)
